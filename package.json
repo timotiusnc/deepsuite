@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "deepsuite",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "A twist of an application with similar name :)",
+  "repository": "https://github.com/timotiusnc/deepsuite",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",
@@ -14,7 +14,7 @@
     "karma-junit-reporter": "^0.2.2"
   },
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install --allow-root",
 
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000",
